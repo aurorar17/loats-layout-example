@@ -73,58 +73,38 @@ main a[data-element="foto"] img {
 
 #container {
     overflow: hidden;
-    /* Assicura che i float non causino problemi di layout */
 }
 
-/* Stile per le celle superiori */
 #cell1,
 #cell2 {
     float: left;
-    /* Posiziona le celle a sinistra */
     width: 48%;
     height: 200px;
-    /* Larghezza delle celle superiori, lasciando spazio per il margine */
     margin-right: 2%;
-    /* Spazio tra le due celle superiori */
     box-sizing: border-box;
     border: 1px solid #111;
-    /* Bordi sottili per le celle */
     padding: 10px;
-    /* Spazio interno delle celle */
     text-align: center;
-    /* Allinea il testo al centro */
 }
 
-/* Stile per la prima cella superiore */
 #cell1 {
     background-color: #f4f4f4;
-    /* Colore di sfondo per la prima cella */
     margin-left: 8px;
 }
 
-/* Stile per la seconda cella superiore */
 #cell2 {
     background-color: #e0e0e0;
-    /* Colore di sfondo per la seconda cella */
     margin-right: 0;
-    /* Nessun margine a destra per l'ultima cella */
 }
 
-/* Stile per la cella grande sottostante */
 #cell3 {
     clear: both;
-    /* Rimuove l'effetto di float per posizionare la cella grande sotto */
     width: 95%;
     height: 200px;
-    /* Occupa tutta la larghezza del contenitore */
     background-color: #ccc;
-    /* Colore di sfondo per la cella grande */
     border: 1px solid #111;
-    /* Bordo per la cella grande */
     padding: 10px;
-    /* Spazio interno della cella grande */
     text-align: center;
-    /* Allinea il testo al centro */
     margin-left: 8px;
 }
 
